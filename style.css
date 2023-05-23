@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: -webkit-linear-gradient(left, #ffde59, #ff914d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+main {
+  background-color: #ffb347;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-height: 90vh;
+  max-width: 75%;
+  gap: 2.5rem;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.title h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.title p {
+  margin-bottom: -20px;
+  font-weight: 300;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 15px;
+}
+
+.inputs input {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.success {
+  border: 3px solid #17c130;
+}
+
+.error {
+  border: 3px solid #cc1414;
+}
+
+@media (min-width: 1600px) {
+  .title h1 {
+    font-size: 50px;
+  }
+
+  .title p {
+    font-size: 30px;
+  }
+
+  .inputs {
+    font-size: 30px;
+  }
+
+  .inputs input {
+    height: 40px;
+    font-size: 22px;
+  }
+
+  button {
+    margin: auto;
+    height: 3.5rem;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 2200px) {
+  .title h1 {
+    font-size: 60px;
+  }
+
+  .title p {
+    font-size: 40px;
+  }
+
+  .inputs {
+    font-size: 40px;
+  }
+
+  .inputs input {
+    height: 40px;
+    font-size: 28px;
+  }
+
+  button {
+    margin: auto;
+    height: 4.5rem;
+    font-size: 25px;
+  }
+}
