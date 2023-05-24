@@ -36,6 +36,8 @@
 
 - Quando o formulário for preenchido por completo com as informações em formato adequado, todos os campos são sinalizados em verde e o usuário recebe um feedback de sucesso.
 
+![signUpForm](https://github.com/rafaelbarcarol/signUpForm/assets/128104779/387aacd3-6404-49e7-95b3-16982909f61c)
+
 <br>
 
 ## Responsividade
