@@ -30,15 +30,13 @@
 
 - Ao receber o clique no botão "Registrar", a aplicação analisa se todos os campos foram preenchidos adequadamente;
 
-- Quando houver problemas, a aplicação sinaliza em vermelho qual o próximo campo que demanda ajustes;
+- Quando houver problemas, a aplicação sinaliza em vermelho quais os campos que demandam ajustes;
 
-- Os campos preenchidos adequadamente que estão antes de um erro são sinalizados em verde;
+- Os campos preenchidos adequadamente são sinalizados em verde;
 
 - Quando o formulário for preenchido por completo com as informações em formato adequado, todos os campos são sinalizados em verde e o usuário recebe um feedback de sucesso.
 
-![signUpFormGif](https://github.com/rafaelbarcarol/signUpForm/assets/128104779/b819905a-98ec-49dd-8118-e590eb8d5c61)
-
-https://rafaelbarcarol.github.io/signUpForm/
+Disponível em: https://rafaelbarcarol.github.io/signUpForm/
 
 <br>
 
