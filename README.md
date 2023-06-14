@@ -8,6 +8,10 @@
 
 <br>
 
+![Print SignUpForm](https://github.com/rafaelbarcarol/signUpForm/assets/128104779/4d6a85b1-0ca6-4654-bafe-69ad5ac76712)
+
+<br>
+
 Disponível em: https://rafaelbarcarol.github.io/signUpForm/
 
 <br>
