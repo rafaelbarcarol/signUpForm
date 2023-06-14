@@ -1,10 +1,14 @@
 # Formulário de Cadastro (Sign Up Form)
 
-- Página contendo um formulário de cadastro fictício com campos para nome, email, senha e confirmação de senha;
+- Formulário de cadastro fictício com campos para nome, email, senha e confirmação de senha;
 
 - Aplicação de expressões regulares para verificar se os campos foram preenchidos de forma adequada;
 
 - Utilização de funções e da estrutura try...catch para validação das informações e respostas para sucesso ou erros.
+
+![Print SignUpForm](https://github.com/rafaelbarcarol/signUpForm/assets/128104779/4d6a85b1-0ca6-4654-bafe-69ad5ac76712)
+
+Disponível em: https://rafaelbarcarol.github.io/signUpForm/
 
 <br>
 
@@ -30,13 +34,11 @@
 
 - Ao receber o clique no botão "Registrar", a aplicação analisa se todos os campos foram preenchidos adequadamente;
 
-- Quando houver problemas, a aplicação sinaliza em vermelho qual o próximo campo que demanda ajustes;
+- Quando houver problemas, a aplicação sinaliza em vermelho quais os campos que demandam ajustes;
 
-- Os campos preenchidos adequadamente que estão antes de um erro são sinalizados em verde;
+- Os campos preenchidos adequadamente são sinalizados em verde;
 
 - Quando o formulário for preenchido por completo com as informações em formato adequado, todos os campos são sinalizados em verde e o usuário recebe um feedback de sucesso.
-
-![signUpFormGif](https://github.com/rafaelbarcarol/signUpForm/assets/128104779/b819905a-98ec-49dd-8118-e590eb8d5c61)
 
 <br>
 
