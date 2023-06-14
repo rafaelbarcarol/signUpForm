@@ -93,6 +93,6 @@ form.addEventListener("submit", (ev) => {
   } else {
     alert(`Todos os campos foram preenchidos corretamente!
 
-(Nenhum dado foi coletado, esse é apenas um projeto fictício.)`);
+(Dados não coletados, esse é apenas um projeto fictício para estudo)`);
   }
 });
