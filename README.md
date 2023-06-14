@@ -6,6 +6,8 @@
 
 - Utilização de funções e da estrutura try...catch para validação das informações e respostas para sucesso ou erros.
 
+- Disponível em: https://rafaelbarcarol.github.io/signUpForm/
+
 <br>
 
 ## Stacks utilizadas
@@ -35,8 +37,6 @@
 - Os campos preenchidos adequadamente são sinalizados em verde;
 
 - Quando o formulário for preenchido por completo com as informações em formato adequado, todos os campos são sinalizados em verde e o usuário recebe um feedback de sucesso.
-
-Disponível em: https://rafaelbarcarol.github.io/signUpForm/
 
 <br>
 
