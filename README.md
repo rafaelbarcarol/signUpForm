@@ -6,6 +6,7 @@
 
 - Utilização de funções e da estrutura try...catch para validação das informações e respostas para sucesso ou erros.
 
+
 - Disponível em: https://rafaelbarcarol.github.io/signUpForm/
 
 <br>
