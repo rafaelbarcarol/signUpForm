@@ -8,7 +8,7 @@
 
 <br>
 
-<p>Disponível em: <a href="https://rafaelbarcarol.github.io/signUpForm/" target="_blank">https://rafaelbarcarol.github.io/signUpForm/</a></p>
+Disponível em: https://rafaelbarcarol.github.io/signUpForm/
 
 <br>
 
