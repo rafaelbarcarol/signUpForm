@@ -1,16 +1,12 @@
 # Formulário de Cadastro (Sign Up Form)
 
-- Página contendo um formulário de cadastro fictício com campos para nome, email, senha e confirmação de senha;
+- Formulário de cadastro fictício com campos para nome, email, senha e confirmação de senha;
 
 - Aplicação de expressões regulares para verificar se os campos foram preenchidos de forma adequada;
 
 - Utilização de funções e da estrutura try...catch para validação das informações e respostas para sucesso ou erros.
 
-<br>
-
 ![Print SignUpForm](https://github.com/rafaelbarcarol/signUpForm/assets/128104779/4d6a85b1-0ca6-4654-bafe-69ad5ac76712)
-
-<br>
 
 Disponível em: https://rafaelbarcarol.github.io/signUpForm/
 
