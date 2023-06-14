@@ -24,7 +24,11 @@ function validatePassword(password) {
 
 function validatePasswordConfirm(passwordConfirm) {
   const password = document.querySelector("#password").value;
-  if (passwordConfirm !== password) {
+  if (
+    passwordConfirm !== password ||
+    password.length < 8 ||
+    password.length > 20
+  ) {
     const error = new Error();
     error.input = "passwordConfirm";
     throw error;
@@ -50,18 +54,45 @@ form.addEventListener("submit", (ev) => {
   ev.preventDefault();
   resetInputStyles(userInputs);
 
+  let errors = 0;
+
   try {
     validateName(userInputs.firstName.value);
     userInputs.firstName.classList.add("success");
-    validateEmail(userInputs.email.value);
-    userInputs.email.classList.add("success");
-    validatePassword(userInputs.password.value);
-    userInputs.password.classList.add("success");
-    validatePasswordConfirm(userInputs.passwordConfirm.value);
-    userInputs.passwordConfirm.classList.add("success");
-    alert("Todos os campos foram preenchidos corretamente!");
   } catch (error) {
     userInputs[error.input].classList.add("error");
+    errors = 1;
+  }
+
+  try {
+    validateEmail(userInputs.email.value);
+    userInputs.email.classList.add("success");
+  } catch (error) {
+    userInputs[error.input].classList.add("error");
+    errors = 1;
+  }
+
+  try {
+    validatePassword(userInputs.password.value);
+    userInputs.password.classList.add("success");
+  } catch (error) {
+    userInputs[error.input].classList.add("error");
+    errors = 1;
+  }
+
+  try {
+    validatePasswordConfirm(userInputs.passwordConfirm.value);
+    userInputs.passwordConfirm.classList.add("success");
+  } catch (error) {
+    userInputs[error.input].classList.add("error");
+    errors = 1;
+  }
+
+  if (errors > 0) {
     alert("Verifique o(s) campo(s) inválido(s) e tente novamente.");
+  } else {
+    alert(`Todos os campos foram preenchidos corretamente!
+
+(Nenhum dado foi coletado, esse é apenas um projeto fictício.)`);
   }
 });
