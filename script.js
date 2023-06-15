@@ -1,5 +1,5 @@
 function validateName(firstName) {
-  if (!firstName.match(/^[a-zA-Z]{2,}$/)) {
+  if (!firstName.match(/^[a-zA-Záàâãéèêíïóôõöúçñ ]{2,}$/)) {
     const error = new Error();
     error.input = "firstName";
     throw error;
